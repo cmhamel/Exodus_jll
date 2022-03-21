@@ -1,0 +1,9 @@
+[[Exodus]]
+arch = "x86_64"
+git-tree-sha1 = "29d9496ef616b029968c8de48b7d4e348f13ff4f"
+libc = "glibc"
+os = "linux"
+
+    [[Exodus.download]]
+    sha256 = "82c72bdb02f3b08946126af7e730830e511a26c438dd3fd2fc6de53679669acf"
+    url = "https://github.com/cmhamel/Exodus_jll/releases/download/Exodus-v0.1.0+0/Exodus.v0.1.0.x86_64-linux-gnu.tar.gz"
