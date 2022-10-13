@@ -1,9 +1,50 @@
 [[Exodus]]
-arch = "x86_64"
-git-tree-sha1 = "29d9496ef616b029968c8de48b7d4e348f13ff4f"
+arch = "aarch64"
+git-tree-sha1 = "5110a1d09f516892517ed4f8b994c22d67a0d404"
+os = "macos"
+
+    [[Exodus.download]]
+    sha256 = "0f670102cfcadb79b8a8ce570310d40b5a81ae98a16a332413d5345fe9aa3f13"
+    url = "https://github.com/cmhamel/Exodus_jll/releases/download/Exodus-v0.1.2+0/Exodus.v0.1.2.aarch64-apple-darwin.tar.gz"
+[[Exodus]]
+arch = "aarch64"
+git-tree-sha1 = "f2c32375ef40b582d158087b3852831acdb3dacb"
 libc = "glibc"
 os = "linux"
 
     [[Exodus.download]]
-    sha256 = "82c72bdb02f3b08946126af7e730830e511a26c438dd3fd2fc6de53679669acf"
-    url = "https://github.com/cmhamel/Exodus_jll/releases/download/Exodus-v0.1.0+0/Exodus.v0.1.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "656651fb779929b2e9cc326422f957867c7387c801b2e275c6ad431df7714ebe"
+    url = "https://github.com/cmhamel/Exodus_jll/releases/download/Exodus-v0.1.2+0/Exodus.v0.1.2.aarch64-linux-gnu.tar.gz"
+[[Exodus]]
+arch = "i686"
+git-tree-sha1 = "0ca0c71b813688b634946b56eca2c8ee266505e6"
+os = "windows"
+
+    [[Exodus.download]]
+    sha256 = "6bff4ffd4e25b563e48e4b6db2470799f60b2d76eec9700249908271a538d5a9"
+    url = "https://github.com/cmhamel/Exodus_jll/releases/download/Exodus-v0.1.2+0/Exodus.v0.1.2.i686-w64-mingw32.tar.gz"
+[[Exodus]]
+arch = "x86_64"
+git-tree-sha1 = "657e3399c2bab9ae9a8c1a531944278605142563"
+os = "macos"
+
+    [[Exodus.download]]
+    sha256 = "00cf8f6c2abdf50aeea82baa2e7797cc927dfce9129a6b8af3da33f86307e321"
+    url = "https://github.com/cmhamel/Exodus_jll/releases/download/Exodus-v0.1.2+0/Exodus.v0.1.2.x86_64-apple-darwin.tar.gz"
+[[Exodus]]
+arch = "x86_64"
+git-tree-sha1 = "6faff44746fee7196263a6592269ea7e4e2116ee"
+libc = "glibc"
+os = "linux"
+
+    [[Exodus.download]]
+    sha256 = "67633cc39f2b26423e1213cfe3d5e4623d13e5d62febb7b162cd2f1d5d4da076"
+    url = "https://github.com/cmhamel/Exodus_jll/releases/download/Exodus-v0.1.2+0/Exodus.v0.1.2.x86_64-linux-gnu.tar.gz"
+[[Exodus]]
+arch = "x86_64"
+git-tree-sha1 = "594a9ae00d539f9ba98a656dbdced5cf0864b46c"
+os = "windows"
+
+    [[Exodus.download]]
+    sha256 = "a624133726350568141f70b202dc244e7232ca4f921d8d2cb9b5294e9dbc0fb9"
+    url = "https://github.com/cmhamel/Exodus_jll/releases/download/Exodus-v0.1.2+0/Exodus.v0.1.2.x86_64-w64-mingw32.tar.gz"
