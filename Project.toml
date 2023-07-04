@@ -1,9 +1,10 @@
 name = "Exodus_jll"
 uuid = "fc7263ad-bce8-5229-97b1-c6ddabda41b1"
-version = "0.1.4+0"
+version = "8.19.0+1"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+Fmt_jll = "5dc1e892-f187-50dd-85f3-7dff85c47fc5"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
@@ -14,3 +15,4 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 [compat]
 JLLWrappers = "1.2.0"
 julia = "1.6"
+HDF5_jll = "~1.14"

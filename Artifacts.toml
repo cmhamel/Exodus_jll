@@ -48,3 +48,23 @@ os = "windows"
     [[Exodus.download]]
     sha256 = "ae688198c109309d6a9cd0cc090f6f07c9bb6f98ce10fcef8380af4a3ea014ed"
     url = "https://github.com/cmhamel/Exodus_jll/releases/download/Exodus-v0.1.4+0/Exodus.v0.1.4.x86_64-w64-mingw32.tar.gz"
+[[Exodus]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "7f9fd8ede8d639cc53e60d9db2698e03bb86e7a3"
+libc = "glibc"
+os = "linux"
+
+    [[Exodus.download]]
+    sha256 = "946222be44645786cf88ef441f90ac0c5fb621b78dc45b1972703fb18d75a889"
+    url = "https://github.com/cmhamel/Exodus_jll/releases/download/Exodus-v8.19.0+1/Exodus.v8.19.0.x86_64-linux-gnu-cxx03.tar.gz"
+[[Exodus]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "03345b4ac567ff13961daf11b2b8e726e8148c48"
+libc = "glibc"
+os = "linux"
+
+    [[Exodus.download]]
+    sha256 = "703265b46066923299ac7de3990eee91997a2fb860fac1d321abc94760a08333"
+    url = "https://github.com/cmhamel/Exodus_jll/releases/download/Exodus-v8.19.0+1/Exodus.v8.19.0.x86_64-linux-gnu-cxx11.tar.gz"
